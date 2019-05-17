@@ -69,10 +69,10 @@ const Projects = () => {
         </div>
         <div className="box-projects">
           <Card className='small'
-            header={<CardTitle image="assets/rucipes.PNG">RUcipes</CardTitle>}
+            header={<CardTitle image="assets/rucipes.PNG">RUcipes - RedditAPI</CardTitle>}
             actions={[<a href='https://ericdleon.github.io/RUcipes/' target="_blank" rel="noopener noreferrer"><i className="fab fa-github" /></a>]}>
             <div className="box-text">
-            Web Design Project | May 2019
+            Web Design AJAX Project | May 2019
             </div>
           </Card>
         </div>

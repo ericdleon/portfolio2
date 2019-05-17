@@ -59,6 +59,10 @@ const About = () => {
             skill="Command Line"
             progress="95"
             />
+            <Skills
+            skill="MySQL"
+            progress="80"
+            />
         </div>
       </section>
 

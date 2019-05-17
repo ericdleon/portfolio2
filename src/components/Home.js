@@ -39,7 +39,7 @@ const Home = () => {
         <Link to="/projects" className="btn btn-large">Here</Link>
       </div>
       <div className="top-box bottom-box-a">
-        <h4>Résumé</h4>
+        <h4>Resume</h4>
         <Icon>picture_as_pdf</Icon>
         <a href="https://drive.google.com/file/d/1KRw2zBcTCNZSLANzrJYnuGhP6ouFmbC2/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-large">Here</a>
       </div>

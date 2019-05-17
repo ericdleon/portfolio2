@@ -12,6 +12,7 @@
   --color-svg: 255, 255, 255;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   --hover: #26a69a;
+  --card-title: 0, 0, 0;
 }
 
 .dark-theme {
@@ -28,6 +29,7 @@
   --color-svg: 48, 180, 236;
   --shadow: 0 1px 5px rgba(9, 8, 8, 0.8);
   --hover: black;
+  --card-title: 48, 180, 236;
 }
 
 * {
@@ -264,7 +266,7 @@ i.material-icons {
 }
 
 .card .card-image .card-title {
-  color: rgb(var(--color-text));
+  color: rgb(var(--card-title));
   font-weight: bolder;
   position: absolute;
   bottom: 0;
@@ -293,6 +295,10 @@ i.material-icons {
   margin-left: auto;
   margin-right: auto;
   font-size: 2rem;
+}
+
+.card .card-image img {
+  filter: brightness(60%);
 }
 
 
