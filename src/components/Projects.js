@@ -45,7 +45,7 @@ const Projects = () => {
             header={<CardTitle image="assets/connect4.png">Connect 4</CardTitle>}
             actions={[<a href='https://github.com/ericdleon/Connect-4' target="_blank" rel="noopener noreferrer"><i className="fab fa-github" /></a>]}>
             <div className="box-text">
-            CS11 Project | December 2016
+            CS111 Project | December 2016
             </div>
           </Card>
         </div>
@@ -55,6 +55,24 @@ const Projects = () => {
             actions={[<a href='https://devpost.com/software/it-simulator-2017' target="_blank" rel="noopener noreferrer"><img src="assets/devpost.png" alt="devpost" /></a>]}>
             <div className="box-text">
             ProfHacks | February 2017
+            </div>
+          </Card>
+        </div>
+        <div className="box-projects">
+          <Card className='small'
+            header={<CardTitle image="assets/Plato.PNG">Plato Tutoring Website</CardTitle>}
+            actions={[<a href='https://cloud.indigo.design/share/cu0wyudbmkxr' target="_blank" rel="noopener noreferrer"><img src="assets/rutgers.png" alt="indigo" /></a>]}>
+            <div className="box-text">
+            ITI Showcase | December 2018
+            </div>
+          </Card>
+        </div>
+        <div className="box-projects">
+          <Card className='small'
+            header={<CardTitle image="assets/rucipes.PNG">RUcipes</CardTitle>}
+            actions={[<a href='https://ericdleon.github.io/RUcipes/' target="_blank" rel="noopener noreferrer"><i className="fab fa-github" /></a>]}>
+            <div className="box-text">
+            Web Design Project | May 2019
             </div>
           </Card>
         </div>
