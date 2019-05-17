@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import '../App.css';
 
-export default class Error extends Component {
-  render() {
-    return (
-      <div className="wrapper">
-        <div className="error-page">
-          <img src="./assets/dne.png" alt="error" />
-        </div>
+const Error = () => {
+  return (
+    <div className="wrapper">
+      <div className="error-page">
+        <h1>404 Page Not Found</h1>
       </div>
-    )
-  }
+    </div>
+  );
 }
+export default Error;
