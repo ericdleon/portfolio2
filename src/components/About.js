@@ -17,12 +17,7 @@ const About = () => {
           <h2>Who I am</h2>
           <div className="indent">
             <p>
-            Hi, my name is Eric and I am an Information Techonology and Informatics major at Rutgers New Brunswick.
-            As an ITI major, I specialize in evaluating, implementing, using and managing
-            information technologies for most
-            organizations and corporations. As a developer, I have experiences ranging from front-end development
-            to web-based applications. I wish to pursue a career in
-            Project Management, utilizing my knowledge in management as an ITI major and my knowledge as a Developer.
+            Hi, my name is Eric. I'm an Information Technology and Informatics student at Rutgers University, New Brunswick. My main focus is Web Development and UI/UX Design. I create responsive websites using ReactJS and NodeJS and I like to stay up-to-date with modern web technologies. My current goal is to become a Full-Stack Developer.
             </p>
         </div>
         </header>
