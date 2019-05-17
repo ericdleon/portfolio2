@@ -2,6 +2,7 @@
   "name": "react-website-materialize",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ericdleon.github.io/portfolio/",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.1",
     "react": "^16.3.2",
