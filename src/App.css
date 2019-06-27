@@ -13,6 +13,10 @@
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   --hover: #26a69a;
   --card-title: 0, 0, 0;
+  --footer1: -webkit-linear-gradient(to right, #434343, #000000);
+  --footer2: linear-gradient(to right, #434343, #000000);
+  --nav1:  -webkit-linear-gradient(to right, #434343, #000000);
+  --nav2: linear-gradient(to right, #434343, #000000);
 }
 
 .dark-theme {
@@ -30,6 +34,10 @@
   --shadow: 0 1px 5px rgba(9, 8, 8, 0.8);
   --hover: black;
   --card-title: 48, 180, 236;
+  --footer1: black;
+  --footer2: black;
+  --nav1: black;
+  --nav2: black;
 }
 
 * {
@@ -82,8 +90,8 @@ a.brand-logo {
 
 .nav-wrapper {
   background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--nav1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: var(--nav2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .button-collapse i.material-icons {
@@ -377,8 +385,8 @@ i.material-icons {
 footer {
   margin-top: 2rem;
   background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: var(--footer1);  /* Chrome 10-25, Safari 5.1-6 */
+background: var(--footer2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: rgb(var(--color-p));
   text-align: center;
   padding: 1rem;
