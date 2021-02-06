@@ -41,7 +41,7 @@ const Home = () => {
       <div className="top-box bottom-box-a">
         <h4>Resume</h4>
         <Icon>picture_as_pdf</Icon>
-        <a href="https://drive.google.com/file/d/1KRw2zBcTCNZSLANzrJYnuGhP6ouFmbC2/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-large">Here</a>
+        <a href="https://drive.google.com/file/d/19NhqQ4WhzCsuWSgSXLZldNSk_6Qckjd3/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-large">Here</a>
       </div>
       <div className="top-box bottom-box-b">
         <h4>Resources</h4>
@@ -51,7 +51,7 @@ const Home = () => {
     </section>
 
     <footer className="footer">
-      <p>Eric Deleon &copy; 2019</p>
+      <p>Eric Deleon &copy; 2021</p>
       <center><Theme /></center>
     </footer>
 
