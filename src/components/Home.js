@@ -51,7 +51,7 @@ const Home = () => {
     </section>
 
     <footer className="footer">
-      <p>Eric Deleon &copy; 2019</p>
+      <p>Eric Deleon &copy; 2021</p>
       <center><Theme /></center>
     </footer>
 
